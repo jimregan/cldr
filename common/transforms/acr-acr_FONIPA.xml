@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
+<!-- Copyright © 1991-2017 Unicode, Inc.
+CLDR data files are interpreted according to the LDML specification (http://unicode.org/reports/tr35/)
+For terms of use, see http://www.unicode.org/copyright.html -->
+<supplementalData>
+	<version number="$Revision$" />
+	<transforms>
+		<transform source="acr" target="acr_FONIPA" direction="forward" draft="contributed" alias="acr-fonipa-t-acr">
+			<tRule>
+# https://www.omniglot.com/writing/achi.htm
+::NFC;
+::Lower;
+
+aa → aː ;
+a → ɐ ;
+b\' → pʼ ;
+ch\' → tʃʼ ;
+ch → tʃ ;
+d → d ;
+ee → eː ;
+e → ɛ ;
+ii → iː ;
+i → ɪ ;
+j → χ ;
+k\' → kʼ ;
+k → k ;
+l → l ;
+m → m ;
+n → n ;
+oo → oː ;
+o → ɔ ;
+p → p ;
+q\' → qʼ ;
+q → q ;
+r → ɾ ;
+s → s ;
+tz\' → tsʼ ;
+tz → ts ;
+t → tʰ ;
+uu → uː ;
+u → ʊ ;
+w → w ;
+x → ʃ ;
+y → j ;
+\' → ʔ ;
+			</tRule>
+		</transform>
+	</transforms>
+</supplementalData>
