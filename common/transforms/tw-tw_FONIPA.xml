@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
+<!-- Copyright © 1991-2017 Unicode, Inc.
+CLDR data files are interpreted according to the LDML specification (http://unicode.org/reports/tr35/)
+For terms of use, see http://www.unicode.org/copyright.html -->
+<supplementalData>
+	<version number="$Revision$" />
+	<transforms>
+		<transform source="tw" target="tw_FONIPA" direction="forward" draft="contributed" alias="tw-fonipa-t-tw">
+			<tRule>
+# https://www.omniglot.com/writing/twi.htm
+
+::NFC;
+::Lower;
+
+a → ɑ ;
+b → b ;
+dw { i → dʑʷ ;
+dw → dʒ ;
+d → d ;
+e → e ;
+ɛ → ɛ ;
+f → f ;
+gy { i → dʑ ;
+gw → gʷ ;
+g → g ;
+hw { i → çʷ ;
+hy { i → ç ;
+hw → hʷ ;
+h → h ;
+i → i ;
+ky { i → tɕʰ ;
+kw → kʰ ;
+k → k ;
+l → l ;
+m → m ;
+ngi → ɲĩ ;
+ng → ŋː ;
+nw → ŋŋʷ ;
+nu → ɲʷĩ ;
+nnyi → ɲːĩ ;
+nyi → ɲːĩ ;
+n → n ;
+o → o ;
+ɔ → ɔ ;
+p → pʰ ;
+r → r ;
+s → s ;
+t { i → t ;
+tw { i → tɕʷ ;
+t → tʰ ;
+w { i → ɥ ;
+w → w ;
+			</tRule>
+		</transform>
+	</transforms>
+</supplementalData>
